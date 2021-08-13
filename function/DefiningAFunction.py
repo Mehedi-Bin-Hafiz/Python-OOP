@@ -21,6 +21,9 @@ describe_pet(pet_name='coco',animal_type='dog')
 
 ## default value ##
 
+#######################VVI#######################
+# parameter sequence = positional , default, Arbitrary Arguments, Arbitrary keyword Arguments
+
 def describe_pet(animal_type, pet_name = 'coco'):
     print("\nI have a " + animal_type + ".")
     print("My " + animal_type + "'s name is " + pet_name.title() + ".")
