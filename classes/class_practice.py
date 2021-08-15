@@ -13,3 +13,4 @@ Computer.config(com1) # this com1 arguments catch by self
 com1.config() # behind the seen python config take com1 as arguments and pass self parameter.
 
 
+
