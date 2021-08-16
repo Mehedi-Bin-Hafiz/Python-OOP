@@ -3,7 +3,7 @@
 class Computer():
 
     def __init__(self,cpu,ram): #initialize the variable # in c++,java it is constructor
-        # print('funciton int')
+        # print('function int')
         self.cpu = cpu
         self.ram = ram
 
