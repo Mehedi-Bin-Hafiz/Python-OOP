@@ -5,14 +5,12 @@ class PyCharm:
         print('run')
         print('spell check')
 
-
 class MyEditor:
 
     def execute(self):
         print('run')
         print('check validation')
         print('spell check')
-
 class IDE:
 
     def code(self, obj):
