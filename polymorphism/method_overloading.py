@@ -3,21 +3,18 @@
 
 class Car():
 
-    def __init__(self,v1,v2):
-        self.v1 = v1
-        self.v2 = v2
 
-    def noah(self):
-        print('this is noah with', self.v1)
-    def noah(self):
-        print('this is noah with', self.v2)
+    def noah(self, v1):
+        print('this is noah with', v1)
+    def noah(self, v1, v2):
+        print('this is noah with', v1 +" "+v2)
 
-car = Car('gas', 'bettery')
+car = Car()
 
-car.noah()
-car.noah()
+car.noah('gas')
+car.noah('gas', 'bettery')
 
-##### Method overloading means when we create same method with differet parameter then is called. python does not support it
+#####  If a class has multiple methods having same name but different in parameters, it is known as Method Overloading. python does not support it
 
 
 
