@@ -30,7 +30,7 @@ s2 = Student(5,10)
 ## s1, s2 belongs to a a class. so we can add s1 and s2 but there is no add method in my custom class
 # if i write my custom __add__ class then it called operator overloading
 
-print(s1 + s2) # this is operator overloading
+print(s1 + s2) # this is operator overloading 
 
 
 
