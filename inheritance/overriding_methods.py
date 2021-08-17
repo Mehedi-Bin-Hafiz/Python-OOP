@@ -24,7 +24,7 @@ class Car():
     def increment_odometer(self, miles):
         self.odometer_reading += miles
     def fill_gas_tank(self):
-        print("This need a gas tank!")
+        print("This type of car need a gas tank!")
 
 
 class ElectricCar(Car):
