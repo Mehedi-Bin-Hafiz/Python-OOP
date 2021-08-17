@@ -10,6 +10,9 @@
 ###The __init__() method at is a special method
 #Python runs automatically whenever we create a new instance of a class
 
+def call_able():
+    pass
+
 class Dog():
     """A simple attempt to model a dog."""
 
@@ -38,11 +41,12 @@ class Dog():
 #is a reference to the instance itself; it gives the individual instance access to
 #the attributes and methods in the class.
 
-my_dog = Dog('willie', 6) #When Python reads this line, it calls the __init__() method in Dog with the arguments 'willie' and 6.
-#We store that instance in the variable my_dog.
+if __name__ == '__main__':
+    my_dog = Dog('willie', 6) #When Python reads this line, it calls the __init__() method in Dog with the arguments 'willie' and 6.
+    #We store that instance in the variable my_dog.
 
-print("My dog's name is " + my_dog.name.title() + ".")
-print("My dog is " + str(my_dog.age) + " years old.")
+    print("My dog's name is " + my_dog.name.title() + ".")
+    print("My dog is " + str(my_dog.age) + " years old.")
 
-my_dog.sit()
-my_dog.roll_over()
+    my_dog.sit()
+    my_dog.roll_over()

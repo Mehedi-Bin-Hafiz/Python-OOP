@@ -2,11 +2,13 @@
 # python support it
 
 class Father():
+    """ This is my father"""
 
     def mobile(self):
         print('samsung')
 
 class Me(Father):
+    """ This is me"""
 
     def mobile(self):
         print('HUAWEI')
